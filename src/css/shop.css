@@ -1,0 +1,549 @@
+@charset "utf-8";
+
+body {
+    overflow-x: hidden;
+    background: #f6f6f6;
+}
+
+
+
+/* head */
+.header-con,
+.top-con,
+.nav-con,
+.time-con,
+.tab-con,
+.picShow-con {
+    width: 1090px;
+    margin: 0 auto;
+}
+
+.header {
+    height: 30px;
+    background: black;
+}
+
+.header .header-con {
+    height: 30px;
+}
+
+.header-lf {
+    width: 263px;
+    height: 30px;
+    font-size: 12px;
+    float: left;
+    line-height: 30px;
+    padding-left: 7px;
+    color: #999999;
+
+}
+
+.header-lf ul li {
+    float: left;
+    margin-right: 17px;
+
+
+}
+
+
+.header-rg {
+    width: 634px;
+    height: 30px;
+    float: right;
+    font-size: 12px;
+    line-height: 30px;
+    /* overflow: hidden; */
+
+}
+
+.header-rg ul li a {
+    color: #999999;
+}
+
+
+.header-rg ul li {
+    float: left;
+    width: 74px;
+    height: 30px;
+    text-align: center;
+    /* margin-right: 17px; */
+    /* width: */
+
+
+}
+
+.header-rg ul li i {
+    display: block;
+    width: 10px;
+    height: 15px;
+    float: right;
+    position: absolute;
+    top: 2px;
+    right: 3px;
+    color: #fff;
+    z-index: 13;
+}
+
+.header-rg ul li:nth-of-type(6) i {
+    right: 9px;
+}
+
+.header-rg ul li:nth-of-type(7) i {
+    right: 9px;
+}
+
+
+.header-rg ul>li:nth-child(3) {
+    margin-right: 25px;
+    position: relative;
+    z-index: 10;
+
+
+}
+
+.header-rg ul>li:nth-child(3) ol {
+    background: green;
+    height: 150px;
+    position: absolute;
+    display: none;
+}
+
+.header-rg ul>li:nth-child(3):hover ol {
+    display: block;
+}
+
+.header-rg ul>li:hover i {
+    transform: rotateX(-180deg);
+
+}
+
+.header-rg ul>li:nth-child(4) {
+    margin-right: 25px;
+    position: relative;
+    z-index: 10;
+}
+
+.header-rg ul>li:nth-child(4) ol {
+    background: green;
+    height: 150px;
+    position: absolute;
+    display: none;
+}
+
+.header-rg ul>li:nth-child(4):hover ol {
+    display: block;
+}
+
+.header-rg ul>li:nth-child(5) {
+    margin-right: 25px;
+    position: relative;
+    z-index: 10;
+}
+
+.header-rg ul>li:nth-child(5) ol {
+    background: green;
+    height: 150px;
+    position: absolute;
+    display: none;
+}
+
+.header-rg ul>li:nth-child(5):hover ol {
+    display: block;
+}
+
+.header-rg ul li:last-child {
+    margin-right: 14px;
+}
+
+.header-rg ul>li:nth-child(6) {
+    margin-right: 25px;
+    position: relative;
+    z-index: 10;
+}
+
+.header-rg ul>li:nth-child(6) ol {
+    background: green;
+    height: 150px;
+    position: absolute;
+    display: none;
+}
+
+.header-rg ul>li:nth-child(6):hover ol {
+    display: block;
+}
+
+.header-rg ul>li:nth-child(7) {
+    width: 65px;
+    margin-right: 25px;
+    position: relative;
+    z-index: 10;
+
+
+}
+
+.header-rg ul>li:nth-child(7) ol {
+    background: green;
+    height: 150px;
+    position: absolute;
+    display: none;
+}
+
+.header-rg ul>li:nth-child(7):hover ol {
+    display: block;
+}
+
+/* title */
+
+.top {
+    height: 102px;
+
+
+}
+
+.top .top-con {
+    height: 102px;
+
+}
+
+.top .top-con .top-pic {
+    width: 347px;
+    height: 102px;
+    padding-top: 20px;
+    float: left;
+
+}
+
+.top .top-con .top-pic img {
+    width: 222px;
+    height: 68px;
+
+}
+
+.top .top-con .top-center {
+    width: 500px;
+    height: 102px;
+    float: left;
+    padding-top: 30px;
+    position: relative;
+}
+
+.top .top-con .top-center .select {
+    width: 516px;
+    height: 37px;
+    border-radius: 20px;
+    border: 1px solid #ff1126;
+
+}
+
+
+.top .top-con .top-center span {
+    width: 60px;
+    height: 37px;
+    display: block;
+    background: #ff1126;
+    position: absolute;
+    top: 30px;
+    right: -30px;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 37px;
+    color: #fff;
+}
+
+.top .top-con .top-center ul {
+    width: 516px;
+}
+
+.top .top-con .top-center ul li {
+    float: left;
+    height: 35px;
+    line-height: 35px;
+    margin-right: 30px;
+    font-size: 12px;
+    color: #999;
+}
+
+.top .top-con .top-center ul li:first-child {
+    margin-left: 33px;
+}
+
+.top .top-con .top-rg {
+    float: left;
+    height: 102px;
+    width: 237px;
+    padding: 30px 0 0 50px;
+
+}
+
+.top .top-con .top-rg span {
+    display: block;
+    width: 106px;
+    height: 36px;
+    border-radius: 20px;
+    border: 2px solid #ff1126;
+    line-height: 36px;
+
+}
+
+.top .top-con .top-rg i {
+    float: left;
+    color: #ff1126;
+    height: 20px;
+    font-weight: 900;
+    margin-left: 17px;
+    margin-right: 9px;
+
+
+}
+
+.top .top-con .top-rg h2 {
+    float: left;
+
+}
+
+/* nav */
+
+.nav {
+    height: 41px;
+
+
+}
+
+.nav .nav-con {
+    height: 41px;
+    line-height: 41px;
+    z-index: 110;
+}
+
+.nav .nav-con ul li {
+    font-size: 14px;
+    font-weight: 900;
+    float: left;
+    margin-right: 42px;
+}
+
+.nav .nav-con ul a {
+    color: #333;
+}
+
+
+.nav .nav-con ul a:hover {
+    color: #ff1126;
+}
+
+.nav .nav-con ul li:first-child {
+    margin-left: 0px;
+    width: 164px;
+    height: 41px;
+    background: #ff1126;
+    text-align: center;
+    line-height: 41px;
+}
+
+.nav .nav-con ul li:nth-child(2) {
+    margin-left: 43px;
+}
+
+/* time */
+
+.time {
+    background: skyblue;
+}
+
+.time .time-con {
+    background: pink;
+    height: 120px;
+    text-align: center;
+    line-height: 120px;
+}
+
+.time .time-con .smtitle {
+    font-size: 36px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.time .time-con b {
+    font-size: 14px;
+    color: #fff;
+}
+
+.time .time-con .changetime {
+    font-size: 28px;
+    font-weight: bold;
+    color: #fff;
+}
+
+/* tab */
+.tab {
+    background: pink;
+}
+
+.tab .tab-con {
+    height: 50px;
+    background: #333;
+}
+
+.tab .tab-con a {
+    display: block;
+    height: 50px;
+    width: 155px;
+    float: left;
+    text-align: center;
+    line-height: 50px;
+    color: #aaa;
+}
+
+.tab .tab-con a:hover {
+    border-bottom: 2px solid #ff1126;
+    color: #fff;
+}
+
+‘.tab .tab-con a b {
+    width: 155px;
+    height: 25px;
+}
+
+/* picshow */
+
+
+
+.picShow .picShow-con {
+
+    min-height: 800px;
+}
+
+.picShow .picShow-con .mask {
+    display: block;
+    width: 262px;
+    height: 391px;
+    /* background:  */
+    position: absolute;
+    top: 0;
+}
+
+.picShow .picShow-con .wrap {
+    width: 262px;
+    height: 391px;
+    margin: 0 14px 14px 0;
+    float: left;
+    position: relative;
+    background: #fff;
+    position: relative;
+
+}
+
+.picShow .picShow-con .wrap img {
+    width: 262px;
+    height: 262px;
+
+}
+
+.picShow .picShow-con .wrap a>span {
+    display: block;
+    position: absolute;
+    left: 10px;
+    bottom: 129px;
+    height: 20px;
+    padding: 0 10px;
+    border: 1px solid #f00;
+    color: #f00;
+    line-height: 20px;
+    font-size: 12px;
+    background: rgba(255, 255, 255, 0.85);
+}
+
+.picShow .picShow-con .message a {
+    padding-top: 9px;
+    width: 262px;
+    height: 25px;
+    display: block;
+    font-size: 14px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 4px;
+    font-weight: bold;
+    color: #333;
+
+}
+
+.picShow .picShow-con .message a:nth-of-type(2) {
+    font-size: 12px;
+    color: #999;
+}
+
+.picShow .picShow-con .wrap .price b:nth-of-type(1) {
+    font-size: 12px;
+    color: #ff1126;
+}
+
+.picShow .picShow-con .wrap .price b:nth-of-type(2) {
+    font-size: 18px;
+    color: #ff1126;
+    font-weight: bold;
+}
+
+.picShow .picShow-con .wrap .price b:nth-of-type(3) {
+    font-size: 12px;
+    color: #999;
+    text-decoration: line-through;
+
+
+}
+
+.picShow .picShow-con .wrap .price a {
+    display: inline-block;
+    width: 72px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    font-size: 13px;
+    border: 1px solid #f00;
+    border-radius: 14px;
+    text-decoration: none;
+    color: #f00;
+    -webkit-align-self: center;
+    align-self: center;
+    position: absolute;
+    bottom: 57px;
+    right: 10px;
+}
+
+.picShow .picShow-con .wrap .progress {
+    margin-top: 12px;
+    width: 262px;
+    height: 34px;
+    padding-left: 6px;
+    margin: 0 auto;
+    padding-top: 12px;
+}
+
+.picShow .picShow-con .wrap .progress .barwrap {
+    width: 190px;
+    height: 12px;
+
+
+    padding-top: 12px;
+    position: relative;
+    border-radius: 5px;
+    border: 1px solid #ff6985;
+}
+
+.picShow .picShow-con .wrap .progress .barwrap .bar {
+    width: 125px;
+    height: 12px;
+    background: #ff6985;
+    position: absolute;
+    top: 0;
+    border-radius: 5px;
+
+}
+
+.picShow .picShow-con .wrap .progress .barwrap>span {
+    font-size: 12px;
+    position: absolute;
+    top: -3px;
+    right: -60px;
+    color: #ff6985;
+}

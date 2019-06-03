@@ -1,0 +1,390 @@
+@charset "utf-8";
+
+body {
+    overflow-x: hidden;
+    background: #f6f6f6;
+}
+
+
+
+/* head */
+.header-con,
+.top-con,
+.order-con {
+    width: 1090px;
+    margin: 0 auto;
+}
+
+.header {
+    height: 30px;
+    background: black;
+}
+
+.header .header-con {
+    height: 30px;
+}
+
+.header-lf {
+    width: 263px;
+    height: 30px;
+    font-size: 12px;
+    float: left;
+    line-height: 30px;
+    padding-left: 7px;
+    color: #999999;
+
+}
+
+.header-lf ul li {
+    float: left;
+    margin-right: 17px;
+
+
+}
+
+
+.header-rg {
+    width: 634px;
+    height: 30px;
+    float: right;
+    font-size: 12px;
+    line-height: 30px;
+    /* overflow: hidden; */
+
+}
+
+.header-rg ul li a {
+    color: #999999;
+}
+
+
+.header-rg ul li {
+    float: left;
+    width: 74px;
+    height: 30px;
+    text-align: center;
+    /* margin-right: 17px; */
+    /* width: */
+
+
+}
+
+.header-rg ul li i {
+    display: block;
+    width: 10px;
+    height: 15px;
+    float: right;
+    position: absolute;
+    top: 2px;
+    right: 3px;
+    color: #fff;
+    z-index: 13;
+}
+
+.header-rg ul li:nth-of-type(6) i {
+    right: 9px;
+}
+
+.header-rg ul li:nth-of-type(7) i {
+    right: 9px;
+}
+
+
+.header-rg ul>li:nth-child(3) {
+    margin-right: 25px;
+    position: relative;
+    z-index: 10;
+
+
+}
+
+.header-rg ul>li:nth-child(3) ol {
+    background: green;
+    height: 150px;
+    position: absolute;
+    display: none;
+}
+
+.header-rg ul>li:nth-child(3):hover ol {
+    display: block;
+}
+
+.header-rg ul>li:hover i {
+    transform: rotateX(-180deg);
+
+}
+
+.header-rg ul>li:nth-child(4) {
+    margin-right: 25px;
+    position: relative;
+    z-index: 10;
+}
+
+.header-rg ul>li:nth-child(4) ol {
+    background: green;
+    height: 150px;
+    position: absolute;
+    display: none;
+}
+
+.header-rg ul>li:nth-child(4):hover ol {
+    display: block;
+}
+
+.header-rg ul>li:nth-child(5) {
+    margin-right: 25px;
+    position: relative;
+    z-index: 10;
+}
+
+.header-rg ul>li:nth-child(5) ol {
+    background: green;
+    height: 150px;
+    position: absolute;
+    display: none;
+}
+
+.header-rg ul>li:nth-child(5):hover ol {
+    display: block;
+}
+
+.header-rg ul li:last-child {
+    margin-right: 14px;
+}
+
+.header-rg ul>li:nth-child(6) {
+    margin-right: 25px;
+    position: relative;
+    z-index: 10;
+}
+
+.header-rg ul>li:nth-child(6) ol {
+    background: green;
+    height: 150px;
+    position: absolute;
+    display: none;
+}
+
+.header-rg ul>li:nth-child(6):hover ol {
+    display: block;
+}
+
+.header-rg ul>li:nth-child(7) {
+    width: 65px;
+    margin-right: 25px;
+    position: relative;
+    z-index: 10;
+
+
+}
+
+.header-rg ul>li:nth-child(7) ol {
+    background: green;
+    height: 150px;
+    position: absolute;
+    display: none;
+}
+
+.header-rg ul>li:nth-child(7):hover ol {
+    display: block;
+}
+
+.top {
+    height: 102px;
+
+
+}
+
+.top .top-con {
+    height: 102px;
+
+}
+
+.top .top-con .top-pic {
+    width: 347px;
+    height: 102px;
+    padding-top: 20px;
+    float: left;
+
+}
+
+.top .top-con .top-pic img {
+    width: 222px;
+    height: 68px;
+
+}
+
+/* order */
+.order {
+    height: 234px;
+}
+
+.order .order-con {
+    background: skyblue;
+    height: 234px;
+    position: relative;
+}
+
+.order .order-con p {
+    display: block;
+    border-bottom: 1px solid #ddd;
+    padding: 0 0 5px 5px;
+    margin: 10px 0 5px;
+    font-size: 16px;
+    color: #333;
+    height: 24px;
+    font-weight: 900;
+    line-height: 24px;
+}
+
+.order .order-con .thead .col {
+    height: 33px;
+    line-height: 33px;
+    color: #999;
+    font-size: 12px;
+    float: left;
+    text-align: center;
+}
+
+.order .order-con .thead .col1 {
+    width: 50.4%;
+    text-align: left;
+}
+
+.order .order-con .thead .col2 {
+    width: 12.4%;
+}
+
+.order .order-con .thead .col3 {
+    width: 12.4%;
+}
+
+.order .order-con .thead .col4 {
+    width: 12.4%;
+}
+
+.order .order-con .thead .col5 {
+    text-align: right;
+    width: 9.9%;
+    padding-right: 2.5%;
+}
+
+/* good */
+.order .order-con .good .good-lf {
+    width: 528px;
+    height: 61px;
+    background: orange;
+    float: left;
+    line-height: 61px;
+    position: relative;
+
+
+}
+
+.order .order-con .good .good-lf>img {
+
+    position: absolute;
+    top: 10px;
+}
+
+.order .order-con .good .good-lf span:nth-of-type(1) {
+    font-size: 12px;
+    color: #999;
+    position: absolute;
+    left: 40px;
+}
+
+.order .order-con .good .good-rg {
+    width: 562px;
+    height: 61px;
+    background: blue;
+    float: left;
+}
+
+.order .order-con .good .good-lf span:nth-of-type(2) {
+    font-size: 12px;
+    color: #999;
+    position: absolute;
+    right: 30px;
+}
+
+.order .order-con .good .good-rg .col {
+    padding: 14px 0 7px;
+    display: inline-block;
+}
+
+.order .order-con .good .good-rg .col2 {
+    width: 129px;
+    height: 39px;
+    margin-left: 73px;
+}
+
+.order .order-con .good .good-rg .col3 {
+    width: 108px;
+    height: 61px;
+}
+
+.order .order-con .good .good-rg .col4 {
+    width: 129px;
+    height: 39px;
+}
+
+.order .order-con .good .good-rg .col4 span {
+
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    text-align: center;
+
+}
+
+.order .order-con .good .good-rg .col4 span:nth-of-type(1) {
+
+    background-color: #f3f3f3;
+    cursor: default;
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    text-align: center;
+    color: #333;
+}
+
+.order .order-con .good .good-rg .col4 span:nth-of-type(3) {
+
+    background-color: #f3f3f3;
+    cursor: default;
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    text-align: center;
+    color: #333;
+}
+
+.order .order-con .good .good-rg .col5 {
+    width: 73px;
+    height: 42px;
+}
+
+.order .order-con .common {
+    width: 1090px;
+    height: 40px;
+    background: green;
+    position: absolute;
+    top: 114px;
+    position: relative;
+    line-height: 32px;
+}
+
+.order .order-con .common a {
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+    background: #e31436;
+    display: inline-block;
+    position: absolute;
+    right: 10px;
+    font-size: 18px;
+}

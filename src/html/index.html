@@ -1,0 +1,883 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../images/font/iconfont.css">
+    <title>Document</title>
+</head>
+<script src="../js/plug/move.js"></script>
+<script src="../js/lib/ajax2.0.js"></script>
+
+
+<body>
+    <div class="header">
+        <div class="header-con">
+            <div class="header-lf">
+                <ul>
+                    <li><a>考拉欢迎你 !</a></li>
+                    <li><a style="color:#999;" href="http://localhost/project/src/html/login.html">登录</a></li>
+                    <li><a>免费注册</a></li>
+                    <li><a>手机考拉</a></li>
+                </ul>
+            </div>
+            <div class="header-rg">
+                <ul>
+                    <li><a href="">每日签到</a></li>
+                    <li><a href="">我的订单</a></li>
+                    <li><a href="">个人中心
+                            <ol>
+                                <li><a>联系客服</a></li>
+                                <li><a>帮助中心</a></li>
+                                <li><a>规则中心</a></li>
+                                <li><a>售后管理</a></li>
+                                <li><a>售后</a></li>
+                            </ol>
+                            <i class="iconfont icon-xiajiantou" class="iconfont .icon-weixin"></i></a>
+                    </li>
+                    <li><a href="">客户服务
+                            <ol>
+                                <li><a>联系客服</a></li>
+                                <li><a>帮助中心</a></li>
+                                <li><a>规则中心</a></li>
+                                <li><a>售后管理</a></li>
+                                <li><a>售后</a></li>
+                            </ol>
+                            <i class="iconfont icon-xiajiantou"></i></a>
+                    </li>
+                    <li><a href="">充值中心
+                            <ol>
+                                <li><a>联系客服</a></li>
+                                <li><a>帮助中心</a></li>
+                                <li><a>规则中心</a></li>
+                                <li><a>售后管理</a></li>
+                                <li><a>售后</a></li>
+                            </ol>
+                            <i class="iconfont icon-xiajiantou"></i></a>
+                    </li>
+                    <li><a href="">消费者
+                            <ol>
+                                <li><a>联系客服</a></li>
+                                <li><a>帮助中心</a></li>
+                                <li><a>规则中心</a></li>
+                                <li><a>售后管理</a></li>
+                                <li><a>售后</a></li>
+                            </ol>
+                            <i class="iconfont icon-xiajiantou"></i></a>
+                    </li>
+                    <li><a href="">更多
+                            <ol>
+                                <li><a>联系客服</a></li>
+                                <li><a>帮助中心</a></li>
+                                <li><a>规则中心</a></li>
+                                <li><a>售后管理</a></li>
+                                <li><a>售后</a></li>
+                            </ol>
+                            <i class="iconfont icon-xiajiantou"></i></a>
+                    </li>
+            </div>
+        </div>
+    </div>
+    <div class="top">
+        <div class="top-con">
+            <div class="top-pic">
+                <img src="../images/1.png" alt="">
+            </div>
+            <div class="top-center">
+                <input type="text" class="select">
+                <span><i class="iconfont icon-chazhao"></i></span>
+                <ul>
+                    <li><a>面膜</a></li>
+                    <li><a>口红</a></li>
+                    <li><a>减肥</a></li>
+                    <li><a>全球工厂店</a></li>
+                    <li><a>运动鞋</a></li>
+                    <li><a>项链</a></li>
+                    <li><a>女包</a></li>
+                </ul>
+            </div>
+            <div class="top-rg">
+                <span>
+                    <i class="iconfont icon-gouwuche"></i>
+                    <h2>购物车</h2>
+                </span>
+            </div>
+        </div>
+    </div>
+    <div class="nav">
+        <div class="nav-con">
+            <ul>
+                <li><a href="">首页</a></li>
+                <li><a href="http://localhost/project/src/html/shop.html">今日限时购</a></li>
+                <li><a href="">每日上新</a></li>
+                <li><a href="">国家馆</a></li>
+                <li><a href="">海外旗舰店</a></li>
+                <li><a href="">工厂店</a></li>
+                <li><a href="">品质奶粉</a></li>
+                <li><a href="">人气面膜</a></li>
+                <li><a href="">礼品卡</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="banner">
+        <div class="show">
+            <div class="imgBox">
+                <img src="../images/1.jpg" alt="">
+                <img src="../images/2.jpg" alt="">
+                <img src="../images/3.jpg" alt="">
+                <img src="../images/4.jpg" alt="">
+                <img src="../images/5.jpg" alt="">
+                <img src="../images/6.jpg" alt="">
+                <img src="../images/7.jpg" alt="">
+                <img src="../images/e.jpg" alt="">
+            </div>
+            <span>&lt;</span>
+            <span>&gt;</span>
+            <ul>
+                <!-- <li class='active'></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li> -->
+            </ul>
+            <div class="title-bar">
+                <div>
+                    <ol class="slide">
+                        <li><a href=""><i class="iconfont icon-icon"></i>所有分类</a></li>
+                        <li><a href=""><i class="iconfont icon-meirong"></i>美容彩妆</a>
+                            <ol>
+                                <li>潮品上新</li>
+                                <div>精致女神</div>
+                                <p>时尚型男</p>
+                                <h1>童装童鞋</h1>
+                                <h2>1111</h2>
+                            </ol>
+                        </li>
+                        <li><a href=""><i class="iconfont icon-yingerche-muying"></i>母婴儿童</a>
+                            <ol>
+                                <li>44</li>
+                                <li>4</li>
+                                <li></li>
+                            </ol>
+                        </li>
+                        <li><a href=""><i class="iconfont icon-aixin"></i>营养保健</a>
+                            <ol>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                            </ol>
+
+                        </li>
+                        <li><a href=""><i class="iconfont icon-weibiaoti2fuzhi03"></i>数码家电</a>
+                            <ol>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                            </ol>
+                        </li>
+                        <li><a href=""><i class="iconfont icon-xihuyongpin"></i>个人洗护</a>
+                            <ol>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                            </ol>
+                        </li>
+                        <li><a href=""><i class="iconfont icon-leimucufushi"></i>服饰鞋靴</a>
+                            <ol>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                            </ol>
+                        </li>
+                        <li><a href=""><i class="iconfont icon-qiu"></i>运动户外</a>
+                            <ol>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                            </ol>
+                        </li>
+                        <li><a href=""><i class="iconfont icon-biao"></i>手表配饰</a>
+                            <ol>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                            </ol>
+                        </li>
+                        <li><a href=""><i class="iconfont icon-baobao"></i>轻奢</a>
+                            <ol>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                            </ol>
+
+                        </li>
+                        <li><a href=""><i class="iconfont icon-shafa"></i>家局生活</a>
+                            <ol>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                            </ol>
+                        </li>
+                        <li><a href=""><i class="iconfont icon-meishi"></i>环球美食</a>
+                            <ol>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                            </ol>
+
+                        </li>
+                    </ol>
+                </div>
+            </div>
+
+        </div>
+        <div class="smallpic">
+            <div class="smallpic-con">
+                <div class="smallpic-lf">
+                    <ul class="list">
+                        <li><i class="iconfont icon-ziqian"></i><a href="">网易自营</a></li>
+                        <li><i class="iconfont icon-qiu"></i><a href="">全球直采</a></li>
+                        <li><i class="iconfont icon-zhengban"></i><a href=""></i>假一赔十</a></li>
+                        <li><i class="iconfont icon-qian"></i><a href=""></i>售后无忧</a></li>
+                    </ul>
+                </div>
+                <div class="smallpic-rg">
+                    <i class="iconfont icon-shouji"></i>
+                    <p>领考拉1000元新人礼，APP下单更享手机价</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="dot">
+        <a href=""><img src="../images/ac.jpg" alt=""></a>
+        <ul>
+            <li><a href="#a1">今日限购</a></li>
+            <li><a href="#a2">热门品牌</a></li>
+        </ul>
+        <ol>
+            <li><a href="#a3">美妆专区</a></li>
+            <li><a href="#a4">母婴专区</a></li>
+            <li><a href="#a5">营养保健</a></li>
+            <li><a href="">数码家电</a></li>
+            <li><a href="">个人洗护</a></li>
+            <li><a href="">服饰</a></li>
+            <li><a href="">轻奢区</a></li>
+            <li><a href="">手表配饰</a></li>
+            <li><a href="">运动户外</a></li>
+            <li><a href="">家具生活</a></li>
+            <li><a href="">美食生鲜</a></li>
+        </ol>
+    </div>
+
+    <div class="picture">
+        <div class="pic-con">
+            <a href=""><img src="../images/3_03.png" alt=""></a>
+            <a href=""><img src="../images/3_05.png" alt=""></a>
+            <a href=""><img src="../images/3_07.png" alt=""></a>
+            <a href=""><img src="../images/3_09.png" alt=""></a>
+        </div>
+    </div>
+
+    <div class="buy" id="a1">
+        <div class="buy-con">
+            <div class="buy-lf">
+                <h1>今日限时购</h1>
+                <h2>本厂还剩</h2>
+                <h3>111</h3>
+            </div>
+            <div class="buy-rg">
+                <a href="">进入限时购频道>></a>
+            </div>
+        </div>
+    </div>
+    <div class="good">
+        <div class="good-con">
+            <div class="good-content">
+                <div class="good-lf">
+                    <div class="lf-top">
+                        <!-- <div class="frame">
+                            <img src="../images/a.jpg" alt="">
+                            <div class="img-rg">
+                                <a class="cloth" href="">珠地网眼短袖POLO衫</a>
+                                <br />
+                                <a href="">GANT/甘特2019春夏新品男士珠地网眼短袖POLO衫252105</a>
+                                <p>￥597
+                                    <span>￥995</span>
+                                </p>
+                                <div class="process">
+                                    <b></b>
+                                </div>
+
+                                <h4>限量15304件</h4>
+                                <h5><a>立即抢购</a></h5>
+
+                            </div>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+            <div class="good-rg">
+                <a href=""><img src="../images/3.png" alt=""></a>
+            </div>
+        </div>
+
+        <!-- <div class="good-cen">
+                <div class="cen-top"></div>
+                <div class="cen-bom"></div>
+
+            </div>
+            <div class="good-rg"></div> -->
+    </div>
+    <div class="product" id="a2">
+        <div class="product-con">
+            <div class="product-lf">
+                <h1>热门品牌</h1>
+                <h2>全球精选，一网打尽</h2>
+
+            </div>
+            <div class="product-rg">
+                <a href="">换一换</a>
+                <span><i class="iconfont icon-update"></i></span>
+            </div>
+        </div>
+    </div>
+    <div class="business">
+        <div class="business-con">
+            <div class="business-lf">
+                <div class="bus-top">
+                    <div class="bus-show">
+                        <img src="../images/11.jpg" alt="">
+                        <img src="../images/12.jpg" alt="">
+                        <img src="../images/14.jpg" alt="">
+                        <span>&lt;</span>
+                        <span>&gt;</span>
+                    </div>
+
+                </div>
+                <div class="bus-bom">
+                    <div>
+                        <p>Mellin 美林</p>
+                        <h2>意大利妈妈的选择</h2>
+                    </div>
+                    <div>
+                        <p>良品铺子</p>
+                        <h2>4亿人选择的粮食品牌</h2>
+                    </div>
+                    <div>
+                        <p>Swisse</p>
+                        <h2>科学配方 优质原材料</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="business-rg">
+                <ul class="bus-ul">
+                    <!-- <li>
+                        <div>
+                            <img src="../images/16.jpg" alt="">
+                            <p>70多个国家母婴界信赖的品牌</p>
+                        </div>
+                        <div>
+                            <a>+关注</a>
+                            <h3>306757关注该品牌</h3>
+                            <a href="">进入品牌</a>
+                        </div>
+                    </li> -->
+
+                </ul>
+
+            </div>
+
+        </div>
+    </div>
+    <div class="beauty" id="a3">
+        <div class="beauty-con">
+            <div class="beauty-lf">
+                <h1>美妆专区</h1>
+                <h2>热搜词：<span>面膜 口红 眼霜 精华 卸妆</span></h2>
+            </div>
+            <div class="beauty-rg">
+                <span>更多好货></span>
+            </div>
+        </div>
+    </div>
+    <div class="makeup">
+        <div class="makeup-con">
+            <div class="makeshow">
+                <img src="../images/20.jpg" alt="">
+                <div class="under">
+                    <a><span>精致护肤</span></a>
+                    <a><span>人气面膜</span></a>
+                    <a><span>大牌彩妆</span></a>
+                    <a><span>精致护肤</span></a>
+                    <a><span>人气面膜</span></a>
+                    <a><span>大牌彩妆</span></a>
+                </div>
+            </div>
+
+
+            <ul>
+                <li><a href="">
+                        <h3>每日上新</h3>
+                        <br />
+                        <p>扫遍全球美妆新货</p>
+                        <img src="../images/21.jpg" alt="">
+                    </a></li>
+                <li><a href="">
+                        <h3>热销榜单</h3>
+                        <br />
+                        <p>扫遍全球美妆新货</p>
+                        <img src="../images/22.jpg" alt="">
+                    </a></li>
+                <li><a href="">
+                        <h3>美妆N元热选</h3>
+                        <br />
+                        <p>99元选6件</p>
+                        <img src="../images/23.jpg" alt="">
+                    </a></li>
+                <li><a href="">
+                        <h3>神价购爆款</h3>
+                        <br />
+                        <p>99元选6件</p>
+                        <img src="../images/24.jpg" alt="">
+                    </a>
+                </li>
+            </ul>
+            <div class="makeup-rg">
+                <h5>
+                    <p>最近热卖</p>
+                    <a href="">1</a>
+                    <a href="">2</a>
+                    <a href="">3</a>
+                </h5>
+                <div class="makemove">
+                    <ol>
+                        <li>
+                            <a href="" class="a1"><img src="../images/25.jpg" alt=""></a>
+                            <div class="maketext">
+                                <a href="">A.H.C 第二代B5玻尿酸水乳组合</a>
+                                <p>￥150<span>￥590</span></p>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="" class="a1"><img src="../images/25.jpg" alt=""></a>
+                            <div class="maketext">
+                                <a href="">A.H.C 第二代B5玻尿酸水乳组合</a>
+                                <p>￥150<span>￥590</span></p>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="" class="a1"><img src="../images/25.jpg" alt=""></a>
+                            <div class="maketext">
+                                <a href="">A.H.C 第二代B5玻尿酸水乳组合</a>
+                                <p>￥150<span>￥590</span></p>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="" class="a1"><img src="../images/25.jpg" alt=""></a>
+                            <div class="maketext">
+                                <a href="">A.H.C 第二代B5玻尿酸水乳组合</a>
+                                <p>￥150<span>￥590</span></p>
+                            </div>
+                        </li>
+                    </ol>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="hot">
+        <div class="hot-con">
+            <div class="hot-lf">
+                <h1>热卖品牌</h1>
+            </div>
+        </div>
+    </div>
+    <div class="brand">
+        <div class="brand-con">
+            <a href=""><img src="../images/31.jpg" alt=""><i class="iconfont icon-aixin"></i></a>
+            <a href=""><img src="../images/27.jpg" alt=""><i class="iconfont icon-aixin"></i></a>
+            <a href=""><img src="../images/28.jpg" alt=""><i class="iconfont icon-aixin"></i></a>
+            <a href=""><img src="../images/29.jpg" alt=""><i class="iconfont icon-aixin"></i></a>
+            <a href=""><img src="../images/30.jpg" alt=""><i class="iconfont icon-aixin"></i></a>
+        </div>
+    </div>
+    <div class="beauty" id="a5">
+        <div class="beauty-con">
+            <div class="beauty-lf">
+                <h1>营养保健</h1>
+                <h2>热搜词：<span>面膜 口红 眼霜 精华 卸妆</span></h2>
+            </div>
+            <div class="beauty-rg">
+                <span>更多好货></span>
+            </div>
+        </div>
+    </div>
+    <div class="makeup">
+        <div class="makeup-con">
+            <div class="makeshow">
+                <img src="../images/20.jpg" alt="">
+                <div class="under">
+                    <a><span>精致护肤</span></a>
+                    <a><span>人气面膜</span></a>
+                    <a><span>大牌彩妆</span></a>
+                    <a><span>精致护肤</span></a>
+                    <a><span>人气面膜</span></a>
+                    <a><span>大牌彩妆</span></a>
+                </div>
+            </div>
+
+
+            <ul>
+                <li><a href="">
+                        <h3>每日上新</h3>
+                        <br />
+                        <p>扫遍全球美妆新货</p>
+                        <img src="../images/21.jpg" alt="">
+                    </a></li>
+                <li><a href="">
+                        <h3>热销榜单</h3>
+                        <br />
+                        <p>扫遍全球美妆新货</p>
+                        <img src="../images/22.jpg" alt="">
+                    </a></li>
+                <li><a href="">
+                        <h3>美妆N元热选</h3>
+                        <br />
+                        <p>99元选6件</p>
+                        <img src="../images/23.jpg" alt="">
+                    </a></li>
+                <li><a href="">
+                        <h3>神价购爆款</h3>
+                        <br />
+                        <p>99元选6件</p>
+                        <img src="../images/24.jpg" alt="">
+                    </a>
+                </li>
+            </ul>
+            <div class="makeup-rg">
+                <h5>
+                    <p>最近热卖</p>
+                    <a href="">1</a>
+                    <a href="">2</a>
+                    <a href="">3</a>
+                </h5>
+                <div class="makemove">
+                    <ol>
+                        <li>
+                            <a href="" class="a1"><img src="../images/25.jpg" alt=""></a>
+                            <div class="maketext">
+                                <a href="">A.H.C 第二代B5玻尿酸水乳组合</a>
+                                <p>￥150<span>￥590</span></p>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="" class="a1"><img src="../images/25.jpg" alt=""></a>
+                            <div class="maketext">
+                                <a href="">A.H.C 第二代B5玻尿酸水乳组合</a>
+                                <p>￥150<span>￥590</span></p>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="" class="a1"><img src="../images/25.jpg" alt=""></a>
+                            <div class="maketext">
+                                <a href="">A.H.C 第二代B5玻尿酸水乳组合</a>
+                                <p>￥150<span>￥590</span></p>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="" class="a1"><img src="../images/25.jpg" alt=""></a>
+                            <div class="maketext">
+                                <a href="">A.H.C 第二代B5玻尿酸水乳组合</a>
+                                <p>￥150<span>￥590</span></p>
+                            </div>
+                        </li>
+                    </ol>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="hot">
+        <div class="hot-con">
+            <div class="hot-lf">
+                <h1>热卖品牌</h1>
+            </div>
+        </div>
+    </div>
+    <div class="brand">
+        <div class="brand-con">
+            <a href=""><img src="../images/31.jpg" alt=""><i class="iconfont icon-aixin"></i></a>
+            <a href=""><img src="../images/27.jpg" alt=""><i class="iconfont icon-aixin"></i></a>
+            <a href=""><img src="../images/28.jpg" alt=""><i class="iconfont icon-aixin"></i></a>
+            <a href=""><img src="../images/29.jpg" alt=""><i class="iconfont icon-aixin"></i></a>
+            <a href=""><img src="../images/30.jpg" alt=""><i class="iconfont icon-aixin"></i></a>
+        </div>
+    </div>
+
+    <div class="beauty" id="a4">
+        <div class="beauty-con">
+            <div class="beauty-lf">
+                <h1>母婴专区</h1>
+                <h2>热搜词：<span>面膜 口红 眼霜 精华 卸妆</span></h2>
+            </div>
+            <div class="beauty-rg">
+                <span>更多好货></span>
+            </div>
+        </div>
+    </div>
+    <div class="makeup">
+        <div class="makeup-con">
+            <div class="makeshow">
+                <img src="../images/20.jpg" alt="">
+                <div class="under">
+                    <a><span>精致护肤</span></a>
+                    <a><span>人气面膜</span></a>
+                    <a><span>大牌彩妆</span></a>
+                    <a><span>精致护肤</span></a>
+                    <a><span>人气面膜</span></a>
+                    <a><span>大牌彩妆</span></a>
+                </div>
+            </div>
+
+
+            <ul>
+                <li><a href="">
+                        <h3>每日上新</h3>
+                        <br />
+                        <p>扫遍全球美妆新货</p>
+                        <img src="../images/21.jpg" alt="">
+                    </a></li>
+                <li><a href="">
+                        <h3>热销榜单</h3>
+                        <br />
+                        <p>扫遍全球美妆新货</p>
+                        <img src="../images/22.jpg" alt="">
+                    </a></li>
+                <li><a href="">
+                        <h3>美妆N元热选</h3>
+                        <br />
+                        <p>99元选6件</p>
+                        <img src="../images/23.jpg" alt="">
+                    </a></li>
+                <li><a href="">
+                        <h3>神价购爆款</h3>
+                        <br />
+                        <p>99元选6件</p>
+                        <img src="../images/24.jpg" alt="">
+                    </a>
+                </li>
+            </ul>
+            <div class="makeup-rg">
+                <h5>
+                    <p>最近热卖</p>
+                    <a href="">1</a>
+                    <a href="">2</a>
+                    <a href="">3</a>
+                </h5>
+                <div class="makemove">
+                    <ol>
+                        <li>
+                            <a href="" class="a1"><img src="../images/25.jpg" alt=""></a>
+                            <div class="maketext">
+                                <a href="">A.H.C 第二代B5玻尿酸水乳组合</a>
+                                <p>￥150<span>￥590</span></p>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="" class="a1"><img src="../images/25.jpg" alt=""></a>
+                            <div class="maketext">
+                                <a href="">A.H.C 第二代B5玻尿酸水乳组合</a>
+                                <p>￥150<span>￥590</span></p>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="" class="a1"><img src="../images/25.jpg" alt=""></a>
+                            <div class="maketext">
+                                <a href="">A.H.C 第二代B5玻尿酸水乳组合</a>
+                                <p>￥150<span>￥590</span></p>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="" class="a1"><img src="../images/25.jpg" alt=""></a>
+                            <div class="maketext">
+                                <a href="">A.H.C 第二代B5玻尿酸水乳组合</a>
+                                <p>￥150<span>￥590</span></p>
+                            </div>
+                        </li>
+                    </ol>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="hot">
+        <div class="hot-con">
+            <div class="hot-lf">
+                <h1>热卖品牌</h1>
+            </div>
+        </div>
+    </div>
+    <div class="brand">
+        <div class="brand-con">
+            <a href=""><img src="../images/31.jpg" alt=""><i class="iconfont icon-aixin"></i></a>
+            <a href=""><img src="../images/27.jpg" alt=""><i class="iconfont icon-aixin"></i></a>
+            <a href=""><img src="../images/28.jpg" alt=""><i class="iconfont icon-aixin"></i></a>
+            <a href=""><img src="../images/29.jpg" alt=""><i class="iconfont icon-aixin"></i></a>
+            <a href=""><img src="../images/30.jpg" alt=""><i class="iconfont icon-aixin"></i></a>
+        </div>
+    </div>
+
+
+    <!-- 底部 -->
+    <div class="bottom">
+        <div class="bottom-con">
+            <div class="ling">
+                <i class="iconfont icon-laba"></i>
+                <a>
+                    <p>化妆品消费者提醒</p>
+                    <p>国家药监局提示您：请正确认识化妆品功效，化妆品不能替代药品，不能治疗皮肤病等疾病</p>
+                    <p><a href="">&gt;</a></p>
+                </a>
+            </div>
+            <div class="btm">
+                <ul>
+                    <li>
+                        <i class="iconfont icon-zhengban"></i>
+                        <h1>正品承诺</h1>
+                        <h2>正品保障 假一赔十</h2>
+                    </li>
+                    <li><i class="iconfont icon-di"></i>
+                        <h1>正品承诺</h1>
+                        <h2>正品保障 假一赔十</h2>
+                    </li>
+                    <li><i class="iconfont icon-servicebaoyouqia"></i>
+                        <h1>正品承诺</h1>
+                        <h2>正品保障 假一赔十</h2>
+                    </li>
+                    <li><i class="iconfont icon-servicebaoyouqia"></i>
+                        <h1>正品承诺</h1>
+                        <h2>正品保障 假一赔十</h2>
+                    </li>
+                </ul>
+
+            </div>
+            <div class="bm">
+                <ul>
+                    <li>
+                        <a>
+                            <img src="../images/06.png" alt="">
+                        </a>
+                        <div class="spic">
+                            <span>关注我们</span>
+                            <i class="iconfont icon-weibo"></i>
+                            <i class="iconfont icon-weixin"></i>
+                            <i class="iconfont icon-weixin"></i>
+                        </div>
+                    </li>
+                    <li>
+                        <dl>考拉保障
+                            <dt><a href="">假一赔十</a></dt>
+                            <dt><a href="">廉正监督</a></dt>
+                        </dl>
+                    </li>
+                    <li>
+                        <dl>新手指南
+                            <dt><a href="">购物流程</a></dt>
+                            <dt><a href="">支付方式</a></dt>
+                            <dt><a href="">通关税费</a></dt>
+                            <dt><a href="">常见问题</a></dt>
+                        </dl>
+                    </li>
+                    <li>
+                        <dl>售后服务
+                            <dt><a href="">退货政策</a></dt>
+                            <dt><a href="">退货流程</a></dt>
+                            <dt><a href="">退款说明</a></dt>
+                            <dt><a href="">联系客服</a></dt>
+                        </dl>
+                    </li>
+                    <li>
+                        <dl>考拉保障
+                            <dt><a href="">假一赔十</a></dt>
+                            <dt><a href="">廉正监督</a></dt>
+                        </dl>
+                    </li>
+                    <li>
+                        <dl>新手指南
+                            <dt><a href="">购物流程</a></dt>
+                            <dt><a href="">支付方式</a></dt>
+                            <dt><a href="">通关税费</a></dt>
+                            <dt><a href="">常见问题</a></dt>
+                        </dl>
+                    </li>
+                    <li>
+                        <dl>售后服务
+                            <dt><a href="">退货政策</a></dt>
+                            <dt><a href="">退货流程</a></dt>
+                            <dt><a href="">退款说明</a></dt>
+                            <dt><a href="">联系客服</a></dt>
+                        </dl>
+                    </li>
+                </ul>
+                <div class="er"><img src="../images/07.png" alt="">
+                    <span>扫描下载手机版</span></div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <div class="bottom1">
+        <div class="bottom1-con">
+            <ul>
+                <li><a href="">About NetEase</a></li>
+                <li><a href="">公司简介</a></li>
+                <li><a href="">联系方法</a></li>
+                <li><a href="">友情链接</a></li>
+                <li><a href="">招聘信息</a></li>
+                <li><a href="">客户服务</a></li>
+                <li><a href="">隐私政策</a></li>
+                <li><a href="">网络营销</a></li>
+                <li><a style="border:none" href="">网易考拉</a></li>
+            </ul>
+            <div class="center">
+                <span>网络文化经营许可证：浙网文[2016]0155-055号</span>
+                <span>增值电信业务经营许可证：浙B2-20160288</span>
+                <span> <a href="">自营经营者信息</a></span>
+                <span>（浙）网械平台备字[2018]第00007号</span>
+            </div>
+            <div class="last">
+                <img src="../images/04.png" alt="">
+                <span>浙公网安备 33010802002216号 </span>
+                <span>网易公司版权所有©1997-2019</span>
+                <span>互联网药品信息服务资格证书编号（浙）-2017-0027 </span>
+                <span>浙ICP备16011229号-6</span>
+            </div>
+            <div class="img">
+                <a href=""><img class="img1" src="../images/04.png" alt=""></a>
+                <a href=""><img class="img2" src="../images/05.png" alt=""></a>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+</body>
+<script src="../js/js/index.js"></script>
+
+<script src="../js/js/good.js"></script>
+<script src="../js/js/smallpic.js">
+</script>
+
+</html>

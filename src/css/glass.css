@@ -1,0 +1,647 @@
+@charset "utf-8";
+
+body {
+    overflow-x: hidden;
+    background: #f6f6f6;
+}
+
+
+
+/* head */
+.header-con,
+.top-con,
+.nav-con,
+.time-con,
+.tab-con,
+.picShow-con,
+.glass-con {
+    width: 1090px;
+    margin: 0 auto;
+}
+
+.header {
+    height: 30px;
+    background: black;
+}
+
+.header .header-con {
+    height: 30px;
+}
+
+.header-lf {
+    width: 263px;
+    height: 30px;
+    font-size: 12px;
+    float: left;
+    line-height: 30px;
+    padding-left: 7px;
+    color: #999999;
+
+}
+
+.header-lf ul li {
+    float: left;
+    margin-right: 17px;
+
+
+}
+
+
+.header-rg {
+    width: 634px;
+    height: 30px;
+    float: right;
+    font-size: 12px;
+    line-height: 30px;
+    /* overflow: hidden; */
+
+}
+
+.header-rg ul li a {
+    color: #999999;
+}
+
+
+.header-rg ul li {
+    float: left;
+    width: 74px;
+    height: 30px;
+    text-align: center;
+    /* margin-right: 17px; */
+    /* width: */
+
+
+}
+
+.header-rg ul li i {
+    display: block;
+    width: 10px;
+    height: 15px;
+    float: right;
+    position: absolute;
+    top: 2px;
+    right: 3px;
+    color: #fff;
+    z-index: 13;
+}
+
+.header-rg ul li:nth-of-type(6) i {
+    right: 9px;
+}
+
+.header-rg ul li:nth-of-type(7) i {
+    right: 9px;
+}
+
+
+.header-rg ul>li:nth-child(3) {
+    margin-right: 25px;
+    position: relative;
+    z-index: 10;
+
+
+}
+
+.header-rg ul>li:nth-child(3) ol {
+    background: green;
+    height: 150px;
+    position: absolute;
+    display: none;
+}
+
+.header-rg ul>li:nth-child(3):hover ol {
+    display: block;
+}
+
+.header-rg ul>li:hover i {
+    transform: rotateX(-180deg);
+
+}
+
+.header-rg ul>li:nth-child(4) {
+    margin-right: 25px;
+    position: relative;
+    z-index: 10;
+}
+
+.header-rg ul>li:nth-child(4) ol {
+    background: green;
+    height: 150px;
+    position: absolute;
+    display: none;
+}
+
+.header-rg ul>li:nth-child(4):hover ol {
+    display: block;
+}
+
+.header-rg ul>li:nth-child(5) {
+    margin-right: 25px;
+    position: relative;
+    z-index: 10;
+}
+
+.header-rg ul>li:nth-child(5) ol {
+    background: green;
+    height: 150px;
+    position: absolute;
+    display: none;
+}
+
+.header-rg ul>li:nth-child(5):hover ol {
+    display: block;
+}
+
+.header-rg ul li:last-child {
+    margin-right: 14px;
+}
+
+.header-rg ul>li:nth-child(6) {
+    margin-right: 25px;
+    position: relative;
+    z-index: 10;
+}
+
+.header-rg ul>li:nth-child(6) ol {
+    background: green;
+    height: 150px;
+    position: absolute;
+    display: none;
+}
+
+.header-rg ul>li:nth-child(6):hover ol {
+    display: block;
+}
+
+.header-rg ul>li:nth-child(7) {
+    width: 65px;
+    margin-right: 25px;
+    position: relative;
+    z-index: 10;
+
+
+}
+
+.header-rg ul>li:nth-child(7) ol {
+    background: green;
+    height: 150px;
+    position: absolute;
+    display: none;
+}
+
+.header-rg ul>li:nth-child(7):hover ol {
+    display: block;
+}
+
+/* title */
+
+.top {
+    height: 102px;
+
+
+}
+
+.top .top-con {
+    height: 102px;
+
+}
+
+.top .top-con .top-pic {
+    width: 347px;
+    height: 102px;
+    padding-top: 20px;
+    float: left;
+
+}
+
+.top .top-con .top-pic img {
+    width: 222px;
+    height: 68px;
+
+}
+
+.top .top-con .top-center {
+    width: 500px;
+    height: 102px;
+    float: left;
+    padding-top: 30px;
+    position: relative;
+}
+
+.top .top-con .top-center .select {
+    width: 516px;
+    height: 37px;
+    border-radius: 20px;
+    border: 1px solid #ff1126;
+
+}
+
+
+.top .top-con .top-center span {
+    width: 60px;
+    height: 37px;
+    display: block;
+    background: #ff1126;
+    position: absolute;
+    top: 30px;
+    right: -30px;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 37px;
+    color: #fff;
+}
+
+.top .top-con .top-center ul {
+    width: 516px;
+}
+
+.top .top-con .top-center ul li {
+    float: left;
+    height: 35px;
+    line-height: 35px;
+    margin-right: 30px;
+    font-size: 12px;
+    color: #999;
+}
+
+.top .top-con .top-center ul li:first-child {
+    margin-left: 33px;
+}
+
+.top .top-con .top-rg {
+    float: left;
+    height: 102px;
+    width: 237px;
+    padding: 30px 0 0 50px;
+
+}
+
+.top .top-con .top-rg span {
+    display: block;
+    width: 106px;
+    height: 36px;
+    border-radius: 20px;
+    border: 2px solid #ff1126;
+    line-height: 36px;
+
+}
+
+.top .top-con .top-rg i {
+    float: left;
+    color: #ff1126;
+    height: 20px;
+    font-weight: 900;
+    margin-left: 17px;
+    margin-right: 9px;
+
+
+}
+
+.top .top-con .top-rg h2 {
+    float: left;
+
+}
+
+/* nav */
+
+.nav {
+    height: 41px;
+
+
+}
+
+.nav .nav-con {
+    height: 41px;
+    line-height: 41px;
+    z-index: 110;
+}
+
+.nav .nav-con ul li {
+    font-size: 14px;
+    font-weight: 900;
+    float: left;
+    margin-right: 42px;
+}
+
+.nav .nav-con ul a {
+    color: #333;
+}
+
+
+.nav .nav-con ul a:hover {
+    color: #ff1126;
+}
+
+.nav .nav-con ul li:first-child {
+    margin-left: 0px;
+    width: 164px;
+    height: 41px;
+    background: #ff1126;
+    text-align: center;
+    line-height: 41px;
+}
+
+.nav .nav-con ul li:nth-child(2) {
+    margin-left: 43px;
+}
+
+/* glass */
+.glass .glass-con {
+    height: 629px;
+    width: 1090px;
+
+}
+
+.glass .glass-con section {
+    position: relative;
+    width: 400px;
+    height: 400px;
+
+}
+
+.glass .glass-con .lfbuy {
+    width: 400px;
+    height: 629px;
+    float: left;
+}
+
+.glass .glass-con section aside {
+    width: 400px;
+    height: 400px;
+    background: skyblue;
+    position: absolute;
+    top: 0;
+    right: -430px;
+    overflow: hidden;
+    display: none;
+    z-index: 10;
+}
+
+.glass .glass-con section aside>img {
+    width: 800px;
+    height: 800px;
+    display: block;
+    position: absolute;
+}
+
+.glass .glass-con .bigimg img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.glass .glass-con .shadow {
+    width: 200px;
+    height: 200px;
+    background: rgba(0, 0, 0, .6);
+    position: absolute;
+    top: 0;
+    cursor: pointer;
+    display: none;
+}
+
+.glass .btnbox {
+    width: 400px;
+    height: 80px;
+    background: gray;
+    position: relative;
+    overflow: hidden;
+}
+
+.glass .btnbox .imgbox {
+    height: 100%;
+    position: absolute;
+}
+
+.glass .btnbox .imgbox li {
+    float: left;
+    width: 80px;
+    height: 80px;
+}
+
+.glass .btnbox .imgbox li img {
+    width: 100%;
+    height: 100%;
+}
+
+.btnbox span {
+    display: block;
+
+    width: 33px;
+    height: 64px;
+    position: absolute;
+    padding: 1px 0;
+    margin: 0;
+    border: 1px solid #eee;
+
+    font-size: 36px;
+    color: #666;
+    line-height: 62px;
+    text-align: center;
+    background-color: #fff;
+    color: #999;
+    top: 10px;
+}
+
+.btnbox span:nth-child(1) {
+    left: 0px;
+
+}
+
+.btnbox span:nth-child(2) {
+    right: 0px;
+
+}
+
+.glass .glass-con .shopping {
+    width: 654px;
+    height: 629px;
+    background: skyblue;
+    float: right;
+}
+
+.glass .glass-con .shopping .tle {
+    height: 24px;
+}
+
+.glass .glass-con .shopping img {
+    float: left;
+    width: 24px;
+    height: 24px;
+}
+
+.glass .glass-con .shopping h1 {
+    float: left;
+}
+
+.glass .glass-con .shopping p:nth-of-type(1) {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 26px;
+}
+
+.glass .glass-con .shopping p:nth-of-type(2) {
+    margin-bottom: 11px;
+    color: #333;
+    line-height: 20px;
+    font-size: 13px;
+}
+
+.glass .glass-con .shopping .sell span:nth-child(1) {
+    line-height: 26px;
+    margin: 8px 0;
+    display: inline-block;
+    width: 75px;
+    color: #666;
+    font-size: 12px;
+}
+
+.glass .glass-con .shopping .sell span:nth-child(2) {
+    font-size: 26px;
+    color: #e31436;
+    font-weight: bold;
+    margin: 8px 0;
+}
+
+.glass .glass-con .shopping .sell span:nth-child(3) {
+    display: inline-block;
+    margin-left: 5px;
+    background-color: #f68587;
+    height: 18px;
+    line-height: 18px;
+    padding: 0 5px;
+    color: #fff;
+    font-size: 12px;
+    vertical-align: 5px;
+    border-radius: 2px;
+}
+
+.glass .glass-con .shopping .sell span:nth-child(4) {
+    display: inline-block;
+    margin-left: 5px;
+    background-color: #f68587;
+    height: 18px;
+    line-height: 18px;
+    padding: 0 5px;
+    color: #fff;
+    font-size: 12px;
+    vertical-align: 5px;
+    border-radius: 2px;
+}
+
+.glass .glass-con .shopping .sell span:nth-child(5) {
+    display: inline-block;
+    margin-left: 5px;
+    background-color: #f68587;
+    height: 18px;
+    line-height: 18px;
+    padding: 0 5px;
+    color: #fff;
+    font-size: 12px;
+    vertical-align: 5px;
+    border-radius: 2px;
+
+
+}
+
+.glass .glass-con .shopping .sell span:nth-child(6) {
+    vertical-align: 4px;
+    font-size: 12px;
+    color: #999;
+    margin-left: 14px;
+    margin-bottom: 8px;
+}
+
+.glass .glass-con .shopping .number em {
+
+    font-size: 12px;
+    height: 24px;
+    line-height: 24px;
+    display: inline-block;
+    width: 75px;
+    color: #666;
+    vertical-align: middle;
+
+
+}
+
+.glass .glass-con .shopping .number span {
+    display: inline-block;
+    border: 1px solid #999;
+    text-align: center;
+
+}
+
+.glass .glass-con .shopping .number span:nth-of-type(1) {
+    color: #ccc !important;
+    background-color: #f3f3f3;
+    cursor: default;
+
+    width: 24px;
+    height: 24px;
+
+
+}
+
+.glass .glass-con .shopping .number span:nth-of-type(2) {
+    width: 38px;
+    height: 24px;
+    padding: 4px 5px;
+    padding: 3px 5px;
+    margin: 0;
+    line-height: 1;
+    height: 14px;
+    font-size: 14px;
+    text-align: center;
+    color: #333;
+
+    border: #fff;
+}
+
+.glass .glass-con .shopping .number span:nth-of-type(3) {
+    width: 24px;
+    height: 24px;
+    color: #ccc !important;
+    background-color: #f3f3f3;
+    cursor: default;
+
+
+}
+
+.glass .glass-con .shopping .buybtn {
+    display: block;
+    margin-top: 20px;
+    padding-bottom: 2px;
+    position: relative;
+    width: 658px;
+    height: 50px;
+    background: #f68587;
+}
+
+.glass .glass-con .shopping .buybtn a {
+    display: inline-block;
+    margin-right: 20px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+.glass .glass-con .shopping .buybtn a:nth-child(1) {
+    position: relative;
+    width: 156px;
+    height: 50px;
+    border: 2px solid #d41c44;
+    background-color: #ffeced;
+    color: #d31b44;
+    line-height: 46px;
+}
+
+.glass .glass-con .shopping .buybtn a:nth-child(2) {
+    width: 180px;
+    height: 50px;
+    line-height: 50px;
+    color: #fff;
+    background-color: #e31436;
+}

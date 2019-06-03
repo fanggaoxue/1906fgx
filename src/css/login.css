@@ -1,0 +1,321 @@
+@charset "utf-8";
+
+.header {
+    height: 101px;
+
+}
+
+.header .header-con {
+    height: 101px;
+    width: 1000px;
+
+    margin: 0 auto;
+    padding-top: 20px;
+    position: relative;
+}
+
+.header .header-con .top-img {
+    position: absolute;
+    width: 504px;
+    height: 100px;
+    top: 0;
+    right: 0;
+    background: url(../images/00.png);
+    background-size: cover;
+}
+
+.content {
+
+    height: 630px;
+    background: #f8f8f8;
+}
+
+.content .content-con {
+    width: 1000px;
+    height: 630px;
+    background: #f8f8f8;
+    margin: 0 auto;
+}
+
+.content .content-con>a {
+    display: block;
+    padding-top: 154px;
+    padding-left: 10px;
+    float: left;
+}
+
+.login {
+    width: 352px;
+    height: 366px;
+    background: yellow;
+    float: right;
+    margin-top: 144px;
+    margin-right: 40px;
+    border: 1px solid #999;
+
+}
+
+.login .login-top {
+    width: 352px;
+    height: 52px;
+
+    position: relative;
+}
+
+.login .login-top .login-lf {
+    width: 176px;
+    height: 52px;
+    float: left;
+    background: red;
+    text-align: center;
+    line-height: 52px;
+}
+
+.login .login-top span {
+    position: absolute;
+    top: 17px;
+    left: 175px;
+    width: 0;
+    height: 20px;
+    border-right: 1px solid #ddd;
+}
+
+
+.login .login-top .login-rg {
+    width: 176px;
+    height: 52px;
+    float: left;
+    text-align: center;
+    line-height: 52px;
+
+}
+
+
+.login .login-text {
+    width: 352px;
+    height: 254px;
+    border: 1px solid #999;
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+
+.login .login-text .login-contain {
+    width: 270px;
+    height: 219px;
+    border: 1px solid #999;
+    margin: auto;
+}
+
+.login .login-text .login-id {
+    width: 270px;
+    height: 24px;
+    border: 1px solid #999;
+    line-height: 24px;
+    position: relative;
+
+}
+
+.login .login-text .login-id a {
+    display: block;
+    width: 113px;
+    height: 14px;
+    font-size: 12px;
+    position: absolute;
+    right: 1px;
+}
+
+.login .login-text .input-box {
+    width: 270px;
+    height: 34px;
+    border: 1px solid #999;
+    border-color: #d5d5d5;
+    border-radius: 2px;
+}
+
+.login .login-text .input-box input {
+    width: 260px;
+    height: 34px;
+}
+
+
+/* 
+.login .login-text .input-box .logo {
+    width: 39px;
+    height: 34px;
+    text-align: center;
+
+    float: left;
+    position: relative;
+}
+
+.login .login-text .input-box .logo .logo-pic {
+    position: absolute;
+    top: 8px;
+    left: 10px;
+    width: 17px;
+    height: 18px;
+    padding-top: 8px;
+    background: url(../images/ursicon.png);
+    background-position: 50px -34px;
+}
+
+.login .login-text .input-box .input-text {
+    float: left;
+    width: 180px;
+    height: 30px;
+    line-height: 30px;
+    /* background: greenyellow; */
+/* } */
+/* 
+.login .login-text .input-box .input-text input {
+    width: 180px;
+    height: 30px;
+}
+
+.login .login-text .input-box .tip {
+    width: 40px;
+    height: 34px;
+
+    float: right;
+    position: relative;
+}
+
+.login .login-text .input-box .tip .tip-pic {
+    width: 20px;
+    height: 20px;
+    background: url(../images/03.png);
+    background-position: 186px -32px;
+    position: absolute;
+    top: 8px;
+    right: 10px;
+
+} */
+
+.login .login-text .no {
+    width: 270px;
+    height: 10px;
+
+}
+
+.login .login-text .info {
+    width: 270px;
+    height: 46px;
+
+
+}
+
+.login .login-text .info input {
+    width: 260px;
+    height: 46px;
+}
+
+/* .login .login-text .info .info-input {
+    width: 138px;
+    height: 36px;
+
+    float: left;
+}
+
+.login .login-text .info .info-input>input {
+    width: 138px;
+    height: 36px;
+}
+
+.login .login-text .info .info-box div>a {
+    width: 97px;
+    height: 36px;
+    font-size: 14px;
+    float: right;
+    display: block;
+    line-height: 36px;
+    text-align: center;
+    background-color: #eee;
+    color: #333;
+    border-left: #d5d5d5 solid 1px;
+} */
+
+.login .login-text .btn {
+    margin-top: 30px;
+    width: 270px;
+    height: 36px;
+    background: #e31436;
+}
+
+.login .login-text .btn input {
+    width: 270px;
+    height: 36px;
+    background: #e31436;
+}
+
+/* bottom */
+.bottom {
+    height: 120px;
+
+    margin-top: 40px;
+}
+
+.bottom .bottom-con {
+    width: 1000px;
+    height: 120px;
+
+    margin: 0 auto;
+    position: relative;
+}
+
+.bottom .bottom-con ul li a {
+    float: left;
+    border-right: 1px solid #999;
+    padding-right: 27px;
+    padding-left: 27px;
+    color: #666;
+    font-size: 12px;
+}
+
+.bottom .bottom-con ul li:hover a {
+    color: #c2c2c2;
+}
+
+.bottom .bottom-con .center span {
+    display: block;
+    float: left;
+    font-size: 12px;
+    padding-right: 20px;
+    padding-left: 25px;
+    padding-top: 7px;
+}
+
+.bottom .bottom-con .last {
+    width: 1000px;
+    height: 26px;
+
+}
+
+.bottom .bottom-con .last img {
+    position: absolute;
+    float: left;
+    top: 50px;
+    left: 18px;
+}
+
+.bottom .bottom-con .last span {
+    display: block;
+    float: left;
+    font-size: 12px;
+    padding-right: 18px;
+    padding-left: 39px;
+    padding-top: 7px;
+}
+
+.bottom .bottom-con .img .img1 {
+    position: absolute;
+    top: 79px;
+    left: 550px;
+
+}
+
+.bottom .bottom-con .img .img2 {
+    position: absolute;
+    top: 68px;
+    left: 400px;
+
+}
